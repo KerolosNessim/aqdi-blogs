@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Cairo, Inter } from "next/font/google"
+import { Cairo, Inter } from "next/font/google";
 import Navbar from "@/components/custom/navbar";
+import Footer from "@/components/custom/footer";
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 const cairo = Cairo({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
-})
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,7 +25,9 @@ export default function RootLayout({
     <html lang="ar" dir="rtl" className={inter.variable}>
       <body className={`${cairo.className} antialiased`}>
         <Navbar />
-        {children}</body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

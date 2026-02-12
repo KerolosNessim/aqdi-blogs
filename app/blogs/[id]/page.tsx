@@ -31,7 +31,7 @@ const SingleBlogPage = () => {
           alt="single blog image"
           width={500}
           height={500}
-          className="w-full object-cover rounded-xl"
+          className="w-full object-cover rounded-xl max-h-[70vh]"
         />
         {/* date */}
         <div className="flex items-center gap-2 text-base font-bold">
