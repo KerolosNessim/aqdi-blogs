@@ -12,8 +12,12 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: "منصة عقدي - عقد إيجار إلكتروني موثق خلال 30 دقيقة",
-  description: "احصل على عقد إيجار إلكتروني موثق من شبكة إيجار خلال 30 دقيقة عبر موقع عقدي. خدمة سريعة وسهلة لتلبية جميع احتياجاتك في المملكة.",
+  title: "لمدونة | عقدي - مقالات وأخبار عن الإيجار العقاري",
+  description:
+    "عقدي هو منصة إلكترونية متكاملة تقدم حلولًا مبتكرة لتنظيم وتطوير قطاع الإيجار العقاري بالتعاون مع برنامج إيجار والهيئة العامة للعقار.",
+  verification: {
+    google: "QUTDt7oN3URTv9kB7ffdaeeBw2CDkbet1eaQFeCJ1d4",
+  },
 };
 
 export default function RootLayout({
