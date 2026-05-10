@@ -38,7 +38,7 @@ const Navbar = () => {
     },
     {
       name: "الأسئلة الشائعة",
-      href: "https://aqdi.sa/faqs",
+      href: "https://aqdi.sa/qa",
     },
   ];
 
