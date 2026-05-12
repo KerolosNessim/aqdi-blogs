@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /*?page=
+Sitemap: https://blogs.aqdi.sa/blogs-aqdi-sa-sitemap.xml
